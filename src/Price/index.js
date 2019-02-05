@@ -12,7 +12,7 @@ const Price = ({minPrice}) => {
                 <label>
                     Кількість товару :
                     <input ref={node => inputGoods = node} type="number" /><br/>
-                    Вартість одиниці товару
+                    Вартість одиниці товару грн.
                     <input ref={node1 => inputCost = node1} type="number" />
                 </label>
             </div>
@@ -20,7 +20,10 @@ const Price = ({minPrice}) => {
             <div >
                 <span>Загальна сума </span>
                 <span ref ={node=>msgSpanRes=node}></span>
+                <span> грн.</span>
             </div>
+            <hr/>
+            <a href="URL">>>>Code source </a>
         </div>
     );
 };
